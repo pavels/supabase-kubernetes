@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   supabase:
   - apiVersion: v2
+    created: "2025-02-21T20:55:17.246132325Z"
+    description: The open source Firebase alternative.
+    digest: be3ffd8ad1119ff58dce438badefdac11acdc9fe2351bd097bb7e121c092aa4a
+    icon: https://avatars.githubusercontent.com/u/54469796?s=280&v=4
+    name: supabase
+    type: application
+    urls:
+    - https://github.com/pavels/supabase-kubernetes/releases/download/supabase-0.1.7/supabase-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v2
     created: "2025-02-21T19:20:37.12096809Z"
     description: The open source Firebase alternative.
     digest: 0083ab8a7ed53fe9a7d4178c72e81664cb75d0c9ff303a9ccdb688c867d0ffd1
@@ -38,4 +48,4 @@ entries:
     urls:
     - https://supabase-community.github.io/supabase-kubernetes/build/supabase-0.0.1.tgz
     version: 0.0.1
-generated: "2025-02-21T19:20:37.120986394Z"
+generated: "2025-02-21T20:55:17.246156089Z"
