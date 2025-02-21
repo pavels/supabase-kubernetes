@@ -78,9 +78,9 @@ spec:
             - name: APP_NAME
               value: realtime
             - name: SEED_SELF_HOST
-              value: true
+              value: "true"
             - name: RUN_JANITOR
-              value: true
+              value: "true"
             {{- end }}
             - name: DB_PASSWORD
               valueFrom:
