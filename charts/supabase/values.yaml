@@ -166,7 +166,7 @@ db:
       - ReadWriteOnce
     class: ""
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -246,7 +246,7 @@ studio:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -351,7 +351,7 @@ auth:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -431,7 +431,7 @@ rest:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -515,7 +515,7 @@ realtime:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -593,7 +593,7 @@ meta:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -691,7 +691,7 @@ storage:
       - ReadWriteOnce
     class: ""
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -774,7 +774,7 @@ imgproxy:
       - ReadWriteOnce
     class: ""
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -873,7 +873,7 @@ kong:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -960,7 +960,7 @@ analytics:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -1030,7 +1030,7 @@ vector:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -1108,7 +1108,7 @@ functions:
     #   cpu: 100m
     #   memory: 128Mi
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
@@ -1187,7 +1187,7 @@ minio:
       - ReadWriteOnce
     class: ""
   autoscaling:
-    enabled: true
+    enabled: false
     minReplicas: 1
     maxReplicas: 100
     targetCPUUtilizationPercentage: 80
